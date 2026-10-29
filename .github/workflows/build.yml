@@ -16,8 +16,7 @@ jobs:
         with:
           gradle-version: 8.14.3
       - run: gradle build
-        working-directory: elytra-model
       - uses: actions/upload-artifact@v4
         with:
           name: elytra-model
-          path: elytra-model/build/libs/*.jar
+          path: build/libs/*.jar
