@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "elytra_model",
+  "version": "1.0.0",
+  "name": "Elytra Model",
+  "description": "Duvara fisek basarak ucma testi (sunucu koruma testi icin).",
+  "environment": "client",
+  "entrypoints": { "client": ["com.test.elytramodel.ElytraModelClient"] },
+  "depends": { "fabricloader": "*", "minecraft": "1.21.11", "fabric-api": "*" }
+}
